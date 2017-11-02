@@ -12,6 +12,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Documentation", "0 - Do
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Jim and the Orders", "2 - Jim and the Orders", "{563739A1-C64E-474B-BB3B-AACC100FA93D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JimAndTheOrders", "src\JimAndTheOrders\JimAndTheOrders.csproj", "{F3AFCD99-9E3A-48BB-AD45-40FD8FDC57CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,12 +26,17 @@ Global
 		{C0A94608-A4F2-4954-AAC4-DA56821E5B04}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0A94608-A4F2-4954-AAC4-DA56821E5B04}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0A94608-A4F2-4954-AAC4-DA56821E5B04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3AFCD99-9E3A-48BB-AD45-40FD8FDC57CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3AFCD99-9E3A-48BB-AD45-40FD8FDC57CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3AFCD99-9E3A-48BB-AD45-40FD8FDC57CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3AFCD99-9E3A-48BB-AD45-40FD8FDC57CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C0A94608-A4F2-4954-AAC4-DA56821E5B04} = {D79D460B-07A5-437D-94BC-338FB0C7EEE7}
+		{F3AFCD99-9E3A-48BB-AD45-40FD8FDC57CF} = {563739A1-C64E-474B-BB3B-AACC100FA93D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {431407F2-AA05-4715-8710-235D3D73681B}
