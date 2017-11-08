@@ -36,6 +36,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7 - Diagonal Difference", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiagonalDifference", "src\DiagonalDifference\DiagonalDifference.csproj", "{A340854B-A66A-4146-942D-1B890B6AC94E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "8 - Plus Minus", "8 - Plus Minus", "{7B515FED-AECC-46A0-B1D1-B7E792EB2321}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlusMinus", "src\PlusMinus\PlusMinus.csproj", "{46C35B6B-175E-496B-A27A-94A24B3D4C78}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -70,6 +74,10 @@ Global
 		{A340854B-A66A-4146-942D-1B890B6AC94E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A340854B-A66A-4146-942D-1B890B6AC94E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A340854B-A66A-4146-942D-1B890B6AC94E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46C35B6B-175E-496B-A27A-94A24B3D4C78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46C35B6B-175E-496B-A27A-94A24B3D4C78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46C35B6B-175E-496B-A27A-94A24B3D4C78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46C35B6B-175E-496B-A27A-94A24B3D4C78}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -82,6 +90,7 @@ Global
 		{D785C519-7135-46CB-8DF1-146D6FD29AA7} = {B46062DA-F5CF-48C5-AA4B-7ABFEF93C19E}
 		{A31FA126-31F3-4F72-A924-414E49B94A36} = {06533A66-1EAA-4AE0-81AE-7472AB292904}
 		{A340854B-A66A-4146-942D-1B890B6AC94E} = {16B1BCE2-8337-496C-BC81-61385F95A5A5}
+		{46C35B6B-175E-496B-A27A-94A24B3D4C78} = {7B515FED-AECC-46A0-B1D1-B7E792EB2321}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {431407F2-AA05-4715-8710-235D3D73681B}
