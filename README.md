@@ -12,5 +12,6 @@
  5. [A Very Big Sum](https://www.hackerrank.com/challenges/a-very-big-sum/)
  6. [Compare The Triplets](https://www.hackerrank.com/challenges/compare-the-triplets/)
  7. [Diagonal Difference](https://www.hackerrank.com/challenges/diagonal-difference/)
- 8. [Plus Minus](https://www.hackerrank.com/challenges/plus-minus/problem)
+ 8. [Plus Minus](https://www.hackerrank.com/challenges/plus-minus/)
+ 9. [Staircase](https://www.hackerrank.com/challenges/staircase/)
 
