@@ -14,3 +14,4 @@
  008. [Plus Minus](https://www.hackerrank.com/challenges/plus-minus/)
  009. [Staircase](https://www.hackerrank.com/challenges/staircase/)
  010. [Mini-Max Sum](https://www.hackerrank.com/challenges/mini-max-sum/problem)
+ 011. [Birthday Cake Candles](https://www.hackerrank.com/challenges/birthday-cake-candles/problem)
