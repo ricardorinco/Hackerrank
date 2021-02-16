@@ -1,7 +1,7 @@
 ﻿using Hackerrank.ConsoleApp._002_SimpleArraySum;
 using Xunit;
 
-namespace Hackerrank.Tests._002_SimpleArraySum
+namespace Hackerrank.Tests._002_SimpleArraySumTests
 {
     public class SimpleArraySumResolveTests
     {
