@@ -1,9 +1,9 @@
 ﻿using Hackerrank.ConsoleApp._012_TimeConversion;
 using Xunit;
 
-namespace Hackerrank.UnitTest._012_TimeConversionUnitTest
+namespace Hackerrank.Tests._012_TimeConversionTests
 {
-    public class TimeConversionResolveUnitTest
+    public class TimeConversionResolveTests
     {
         [Fact]
         public void Should_be_converted_12AM_to_obtain_00()

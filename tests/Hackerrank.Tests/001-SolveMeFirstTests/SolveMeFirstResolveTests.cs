@@ -1,9 +1,9 @@
 ﻿using Hackerrank.ConsoleApp._001_SolveMeFirst;
 using Xunit;
 
-namespace Hackerrank.UnitTest._001_SolveMeFirstUnitTest
+namespace Hackerrank.Tests._001_SolveMeFirstTests
 {
-    public class SolveMeFirstResolveUnitTest
+    public class SolveMeFirstResolveTests
     {
         [Fact]
         public void Should_be_sum_10_and_84_to_obtain_94()

@@ -60,7 +60,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeConversion.UnitTest", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hackerrank.ConsoleApp", "src\Hackerrank.ConsoleApp\Hackerrank.ConsoleApp.csproj", "{46137BDF-99BC-4549-91BC-6232870A4A0A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hackerrank.UnitTest", "tests\Hackerrank.UnitTest\Hackerrank.UnitTest.csproj", "{7CDEDF9F-1465-4AA7-9399-7DF2585531F7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hackerrank.Tests", "tests\Hackerrank.Tests\Hackerrank.Tests.csproj", "{7CDEDF9F-1465-4AA7-9399-7DF2585531F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
