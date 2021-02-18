@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace Hackerrank.ConsoleApp._011_BirthdayCakeCandles
+namespace Hackerrank.ConsoleApp
 {
-    public class BirthdayCakeCandlesResolve
+    public static class BirthdayCakeCandlesResolve
     {
         public static int BirthdayCakeCandles(List<int> candles)
         {

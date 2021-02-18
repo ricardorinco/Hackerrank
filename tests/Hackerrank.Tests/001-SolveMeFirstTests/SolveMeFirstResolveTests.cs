@@ -1,7 +1,7 @@
-﻿using Hackerrank.ConsoleApp._001_SolveMeFirst;
+﻿using Hackerrank.ConsoleApp;
 using Xunit;
 
-namespace Hackerrank.Tests._001_SolveMeFirstTests
+namespace Hackerrank.Tests
 {
     public class SolveMeFirstResolveTests
     {

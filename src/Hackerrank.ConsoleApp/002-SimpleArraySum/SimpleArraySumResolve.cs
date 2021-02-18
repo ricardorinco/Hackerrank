@@ -1,8 +1,8 @@
 ﻿using System.Linq;
 
-namespace Hackerrank.ConsoleApp._002_SimpleArraySum
+namespace Hackerrank.ConsoleApp
 {
-    public class SimpleArraySumResolve
+    public static class SimpleArraySumResolve
     {
         public static int SimpleArraySum(int[] numbers)
         {

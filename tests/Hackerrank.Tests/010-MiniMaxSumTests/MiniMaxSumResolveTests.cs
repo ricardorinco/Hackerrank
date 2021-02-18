@@ -1,8 +1,8 @@
-﻿using Hackerrank.ConsoleApp._010_MiniMaxSum;
+﻿using Hackerrank.ConsoleApp;
 using System.Text;
 using Xunit;
 
-namespace Hackerrank.Tests._010_MiniMaxSumTests
+namespace Hackerrank.Tests
 {
     public class MiniMaxSumResolveTests
     { }

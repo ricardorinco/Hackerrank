@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace Hackerrank.ConsoleApp._009_Staircase
+namespace Hackerrank.ConsoleApp
 {
-    public class StaircaseResolve
+    public static class StaircaseResolve
     {
         public static void Resolve(int staircaseSize)
         {
@@ -10,10 +10,7 @@ namespace Hackerrank.ConsoleApp._009_Staircase
             {
                 for (int j = 1; j <= staircaseSize; j++)
                 {
-                    if (j >= i)
-                        Console.Write("#");
-                    else
-                        Console.Write(" ");
+                    Console.Write(j >= i ? "#" : " ");
                 }
                 Console.WriteLine("");
             }

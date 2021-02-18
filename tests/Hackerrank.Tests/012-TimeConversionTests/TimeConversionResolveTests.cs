@@ -1,7 +1,7 @@
-﻿using Hackerrank.ConsoleApp._012_TimeConversion;
+﻿using Hackerrank.ConsoleApp;
 using Xunit;
 
-namespace Hackerrank.Tests._012_TimeConversionTests
+namespace Hackerrank.Tests
 {
     public class TimeConversionResolveTests
     {

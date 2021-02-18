@@ -1,8 +1,8 @@
-﻿using Hackerrank.ConsoleApp._009_Staircase;
+﻿using Hackerrank.ConsoleApp;
 using System.Text;
 using Xunit;
 
-namespace Hackerrank.Tests._009_StaircaseTests
+namespace Hackerrank.Tests
 {
     public class StaircaseResolveTests
     { }

@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Linq;
 
-namespace Hackerrank.ConsoleApp._010_MiniMaxSum
+namespace Hackerrank.ConsoleApp
 {
-    public class MiniMaxSumResolve
+    public static class MiniMaxSumResolve
     {
         public static void MiniMaxSum(int[] numbers)
         {

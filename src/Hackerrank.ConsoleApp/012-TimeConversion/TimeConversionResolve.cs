@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace Hackerrank.ConsoleApp._012_TimeConversion
+namespace Hackerrank.ConsoleApp
 {
-    public class TimeConversionResolve
+    public static class TimeConversionResolve
     {
         public static string TimeConversion(string hours)
         {

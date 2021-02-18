@@ -1,8 +1,8 @@
-﻿using Hackerrank.ConsoleApp._011_BirthdayCakeCandles;
+﻿using Hackerrank.ConsoleApp;
 using System.Collections.Generic;
 using Xunit;
 
-namespace Hackerrank.Tests._011_BirthdayCakeCandlesTests
+namespace Hackerrank.Tests
 {
     public class BirthdayCakeCandlesResolveTests
     {

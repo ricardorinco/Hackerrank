@@ -1,6 +1,6 @@
-﻿namespace Hackerrank.ConsoleApp._001_SolveMeFirst
+﻿namespace Hackerrank.ConsoleApp
 {
-    public class SolveMeFirstResolve
+    public static class SolveMeFirstResolve
     {
         public static int SolveMeFirst(int a, int b)
         {
