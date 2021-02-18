@@ -16,3 +16,4 @@
  010. [Mini-Max Sum](https://www.hackerrank.com/challenges/mini-max-sum/problem)
  011. [Birthday Cake Candles](https://www.hackerrank.com/challenges/birthday-cake-candles/problem)
  012. [Time Conversion](https://www.hackerrank.com/challenges/time-conversion/problem)
+ 013. [Grading Students](https://www.hackerrank.com/challenges/grading/problem)
