@@ -1,4 +1,3 @@
-using System.Collections.Generic;
 using Hackerrank.ConsoleApp;
 using Xunit;
 
