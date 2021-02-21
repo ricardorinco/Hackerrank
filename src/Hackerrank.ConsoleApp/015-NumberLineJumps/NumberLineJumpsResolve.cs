@@ -1,6 +1,6 @@
 ﻿namespace Hackerrank.ConsoleApp
 {
-    public class NumberLineJumpsResolve
+    public static class NumberLineJumpsResolve
     {
         public static string Kangaroo(int start1, int jumpDistance1, int start2, int jumpDistance2)
         {
