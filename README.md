@@ -17,4 +17,6 @@
  011. [Birthday Cake Candles](https://www.hackerrank.com/challenges/birthday-cake-candles/problem)
  012. [Time Conversion](https://www.hackerrank.com/challenges/time-conversion/problem)
  013. [Grading Students](https://www.hackerrank.com/challenges/grading/problem)
- 014. [Number Line Jumps](https://www.hackerrank.com/challenges/kangaroo/problem)
+ 014. [AppleAndOrangeTest](https://www.hackerrank.com/challenges/apple-and-orange/problem)
+ 015. [Number Line Jumps](https://www.hackerrank.com/challenges/kangaroo/problem)
+ 016. [Between Two Sets](https://www.hackerrank.com/challenges/between-two-sets/problem)
