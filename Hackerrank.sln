@@ -8,10 +8,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "000 - Documentation", "000 
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "007 - Diagonal Difference", "007 - Diagonal Difference", "{16B1BCE2-8337-496C-BC81-61385F95A5A5}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiagonalDifference", "src\DiagonalDifference\DiagonalDifference.csproj", "{A340854B-A66A-4146-942D-1B890B6AC94E}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "008 - Plus Minus", "008 - Plus Minus", "{7B515FED-AECC-46A0-B1D1-B7E792EB2321}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlusMinus", "src\PlusMinus\PlusMinus.csproj", "{46C35B6B-175E-496B-A27A-94A24B3D4C78}"
@@ -26,10 +22,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A340854B-A66A-4146-942D-1B890B6AC94E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A340854B-A66A-4146-942D-1B890B6AC94E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A340854B-A66A-4146-942D-1B890B6AC94E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A340854B-A66A-4146-942D-1B890B6AC94E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{46C35B6B-175E-496B-A27A-94A24B3D4C78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{46C35B6B-175E-496B-A27A-94A24B3D4C78}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46C35B6B-175E-496B-A27A-94A24B3D4C78}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -47,7 +39,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{A340854B-A66A-4146-942D-1B890B6AC94E} = {16B1BCE2-8337-496C-BC81-61385F95A5A5}
 		{46C35B6B-175E-496B-A27A-94A24B3D4C78} = {7B515FED-AECC-46A0-B1D1-B7E792EB2321}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
