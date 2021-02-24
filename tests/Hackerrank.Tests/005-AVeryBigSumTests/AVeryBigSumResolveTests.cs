@@ -1,7 +1,7 @@
 ﻿using Hackerrank.ConsoleApp;
 using Xunit;
 
-namespace Hackerrank.Tests._005_AVeryBigSumTests
+namespace Hackerrank.Tests
 {
     public class AVeryBigSumResolveTests
     {
