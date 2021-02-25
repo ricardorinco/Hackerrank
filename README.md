@@ -21,3 +21,4 @@
  015. [Number Line Jumps](https://www.hackerrank.com/challenges/kangaroo/problem)
  016. [Between Two Sets](https://www.hackerrank.com/challenges/between-two-sets/problem)
  017. [Breaking the Records](https://www.hackerrank.com/challenges/breaking-best-and-worst-records/problem)
+ 018. [Subarray Division](https://www.hackerrank.com/challenges/the-birthday-bar/problem)
