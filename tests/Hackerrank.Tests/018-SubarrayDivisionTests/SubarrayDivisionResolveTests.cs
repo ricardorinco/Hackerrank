@@ -7,7 +7,7 @@ namespace Hackerrank.Tests
     public class SubarrayDivisionResolveTests
     {
         [Theory, MemberData(nameof(DataChocolateBar))]
-        public void Should_be_obtains_final_grades_in_array_expect_results_match(
+        public void Should_be_the_bars_number_of_division_expect_results_match(
             int expectedResult,
             List<int> squares,
             int d,
