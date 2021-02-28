@@ -38,3 +38,4 @@
 | 017 | [Breaking the Records](https://www.hackerrank.com/challenges/breaking-best-and-worst-records/problem) |
 | 018 | [Subarray Division](https://www.hackerrank.com/challenges/the-birthday-bar/problem) |
 | 019 | [Divisible Sum Pairs](https://www.hackerrank.com/challenges/divisible-sum-pairs/problem) |
+| 020 | [Migratory Birds](https://www.hackerrank.com/challenges/migratory-birds/problem) |
