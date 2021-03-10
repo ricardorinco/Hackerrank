@@ -1,21 +1,22 @@
-﻿using System;
+﻿using Hackerrank.Common;
+using System;
 
 namespace Hackerrank.ConsoleApp
 {
     public static class StaircaseResolve
     {
-        public static void Resolve(int staircaseSize)
+        public static void Resolve(IConsole console, int staircaseSize)
         {
+            string starLine = string.Empty;
+
             for (int i = staircaseSize; i > 0; i--)
             {
                 for (int j = 1; j <= staircaseSize; j++)
-                {
-                    Console.Write(j >= i ? "#" : " ");
-                }
-                Console.WriteLine("");
-            }
+                    starLine += j >= i ? "#" : " ";
 
-            Console.ReadKey();
+                console.WriteLine(starLine);
+                starLine = string.Empty;
+            }
         }
     }
 }
