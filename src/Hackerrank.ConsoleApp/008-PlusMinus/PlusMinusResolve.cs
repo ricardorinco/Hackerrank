@@ -1,15 +1,16 @@
-﻿using System;
+﻿using Hackerrank.Common;
+using System;
 using System.Linq;
 
 namespace Hackerrank.ConsoleApp
 {
     public static class PlusMinusResolve
     {
-        public static void PlusMinus(int[] arr)
+        public static void PlusMinus(IConsole console, int[] arr)
         {
-            Console.WriteLine(string.Format("{0:0.000000}", GetPositiveResult(arr.Length, arr)));
-            Console.WriteLine(string.Format("{0:0.000000}", GetNegativeResult(arr.Length, arr)));
-            Console.WriteLine(string.Format("{0:0.000000}", GetZeroResult(arr.Length, arr)));
+            console.WriteLine(string.Format("{0:0.000000}", GetPositiveResult(arr.Length, arr)));
+            console.WriteLine(string.Format("{0:0.000000}", GetNegativeResult(arr.Length, arr)));
+            console.WriteLine(string.Format("{0:0.000000}", GetZeroResult(arr.Length, arr)));
         }
 
         private static decimal GetPositiveResult(int arraySize, int[] inputs)
