@@ -1,5 +1,4 @@
 ﻿using Hackerrank.Common;
-using System;
 
 namespace Hackerrank.ConsoleApp
 {
