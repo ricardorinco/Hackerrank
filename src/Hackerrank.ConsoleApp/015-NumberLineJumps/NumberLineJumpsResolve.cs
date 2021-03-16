@@ -7,9 +7,6 @@
             if (start2 > start1 && jumpDistance2 > jumpDistance1)
                 return "NO";
             
-            if (start1 < start2 && jumpDistance1 < jumpDistance2)
-                return "NO";
-            
             if (jumpDistance1 == jumpDistance2)
                 return "NO";
 
