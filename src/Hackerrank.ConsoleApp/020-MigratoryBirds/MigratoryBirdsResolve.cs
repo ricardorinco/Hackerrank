@@ -9,7 +9,7 @@ namespace Hackerrank.ConsoleApp
         {
             var result = arr.GroupBy(x => x).OrderByDescending(x => x.Count());
 
-            return result == null ? 0 : result.FirstOrDefault().Key;
+            return result.FirstOrDefault() == null ? 0 : result.FirstOrDefault().Key;
         }
     }
 }
