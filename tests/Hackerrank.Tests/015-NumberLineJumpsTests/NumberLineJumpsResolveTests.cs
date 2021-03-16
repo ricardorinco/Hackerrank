@@ -8,6 +8,9 @@ namespace Hackerrank.Tests
         [Theory]
         [InlineData("YES", 0, 3, 4, 2)]
         [InlineData("NO", 0, 2, 5, 3)]
+        [InlineData("NO", 0, 3, 2, 3)]
+        [InlineData("NO", 4, 3, 3, 6)]
+        [InlineData("NO", 1, 3, 3, 6)]
         public void Should_be_obtains_the_same_land_location_after_same_number_of_jumps_expect_results_match(
             string expectedResult,
             int start1,
