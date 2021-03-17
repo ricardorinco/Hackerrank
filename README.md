@@ -40,3 +40,4 @@
 | 019 | [Divisible Sum Pairs](https://www.hackerrank.com/challenges/divisible-sum-pairs/problem) |
 | 020 | [Migratory Birds](https://www.hackerrank.com/challenges/migratory-birds/problem) |
 | 021 | [Day of the Programmer](https://www.hackerrank.com/challenges/day-of-the-programmer/problem) |
+| 022 | [Bill Division](https://www.hackerrank.com/challenges/bon-appetit/problem) |
