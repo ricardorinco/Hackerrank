@@ -1,6 +1,6 @@
-﻿using Hackerrank.Common.Console.Interfaces;
-using System;
+﻿using System;
 using System.Linq;
+using Hackerrank.Common.Console.Interfaces;
 
 namespace Hackerrank.ConsoleApp
 {
@@ -8,34 +8,16 @@ namespace Hackerrank.ConsoleApp
     {
         public static void PlusMinus(IConsole console, int[] arr)
         {
-            console.WriteLine(string.Format("{0:0.000000}", GetPositiveResult(arr.Length, arr)));
-            console.WriteLine(string.Format("{0:0.000000}", GetNegativeResult(arr.Length, arr)));
-            console.WriteLine(string.Format("{0:0.000000}", GetZeroResult(arr.Length, arr)));
+            console.WriteLine($"{GetResult(arr, x => x > 0):0.000000}");
+            console.WriteLine($"{GetResult(arr, x => x < 0):0.000000}");
+            console.WriteLine($"{GetResult(arr, x => x == 0):0.000000}");
         }
 
-        private static decimal GetPositiveResult(int arraySize, int[] inputs)
+        private static decimal GetResult(int[] arr, Func<int, bool> predicate)
         {
-            var count = 0;
-            foreach (var input in inputs.Where(i => i > 0))
-                count++;
-
-            return Math.Round(decimal.Divide(count, arraySize), 6);
-        }
-        private static decimal GetNegativeResult(int arraySize, int[] inputs)
-        {
-            var count = 0;
-            foreach (var input in inputs.Where(i => i < 0))
-                count++;
-
-            return Math.Round(Decimal.Divide(count, arraySize), 6);
-        }
-        private static decimal GetZeroResult(int arraySize, int[] inputs)
-        {
-            var count = 0;
-            foreach (var input in inputs.Where(i => i == 0))
-                count++;
-
-            return Math.Round(Decimal.Divide(count, arraySize), 6);
+            var count = arr.Count(predicate);
+            
+            return Math.Round(decimal.Divide(count, arr.Length), 6);
         }
     }
 }
