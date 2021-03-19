@@ -1,6 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using Hackerrank.Common.Console.Interfaces;
+using System.Collections.Generic;
 
-namespace Hackerrank.Common
+namespace Hackerrank.Common.Console
 {
     public abstract class AbstractConsole : IConsole
     {

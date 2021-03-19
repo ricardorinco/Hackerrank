@@ -1,4 +1,4 @@
-using Hackerrank.Common;
+using Hackerrank.Common.Console.Interfaces;
 using System.Linq;
 
 namespace Hackerrank.ConsoleApp

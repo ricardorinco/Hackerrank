@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Hackerrank.Common
+﻿namespace Hackerrank.Common.Console
 {
     public class AppConsole : AbstractConsole
     {
@@ -8,7 +6,7 @@ namespace Hackerrank.Common
         {
             Contents.Add(text);
 
-            Console.WriteLine(text);
+            System.Console.WriteLine(text);
         }
     }
 }

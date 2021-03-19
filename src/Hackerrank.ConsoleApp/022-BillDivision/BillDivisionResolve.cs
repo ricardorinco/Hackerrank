@@ -1,4 +1,4 @@
-﻿using Hackerrank.Common;
+﻿using Hackerrank.Common.Console.Interfaces;
 using System.Collections.Generic;
 using System.Linq;
 

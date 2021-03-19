@@ -1,4 +1,4 @@
-using Hackerrank.Common;
+using Hackerrank.Common.Console;
 using Hackerrank.ConsoleApp;
 using System.Collections.Generic;
 using Xunit;
