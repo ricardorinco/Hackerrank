@@ -5,19 +5,16 @@ namespace Hackerrank.ConsoleApp
 {
     public static class JimAndTheOrdersResolve
     {
-        public static int[] JimOrders(int[][] orders)
+        public static int[] JimOrders(IEnumerable<int[]> orders)
         {
-            var fansList = new List<Fan>();
-            for (int i = 0; i < orders.Length; i++)
-            {
-                fansList.Add(new Fan {
-                    Id = i + 1,
-                    Time = orders[i][0],
-                    OrderTake = orders[i][1]
-                });
-            }
-
-            return fansList
+            return orders
+                .Select((f, i) => new
+                    {
+                        Id = i + 1,
+                        Time = f[0],
+                        OrderTake = f[1]
+                    }
+                )
                 .OrderBy(f => f.Time + f.OrderTake)
                 .Select(f => f.Id)
                 .ToArray();
