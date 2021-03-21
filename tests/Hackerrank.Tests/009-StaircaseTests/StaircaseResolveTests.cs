@@ -1,6 +1,6 @@
-﻿using Hackerrank.Common.Console;
-using Hackerrank.ConsoleApp;
+﻿using Hackerrank.ConsoleApp;
 using System.Collections.Generic;
+using Hackerrank.Common.Console;
 using Xunit;
 
 namespace Hackerrank.Tests
@@ -16,7 +16,7 @@ namespace Hackerrank.Tests
         {
             StaircaseResolve.Resolve(console, staircaseSize);
 
-            for (int i = 0; i < console.Contents.Count; i++)
+            for (var i = 0; i < console.Contents.Count; i++)
                 Assert.Equal(expectedResults[i], console.Contents[i]);
         }
 
