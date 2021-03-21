@@ -9,12 +9,11 @@ namespace Hackerrank.ConsoleApp
         {
             return orders
                 .Select((f, i) => new
-                    {
-                        Id = i + 1,
-                        Time = f[0],
-                        OrderTake = f[1]
-                    }
-                )
+                {
+                    Id = i + 1,
+                    Time = f[0],
+                    OrderTake = f[1]
+                })
                 .OrderBy(f => f.Time + f.OrderTake)
                 .Select(f => f.Id)
                 .ToArray();
