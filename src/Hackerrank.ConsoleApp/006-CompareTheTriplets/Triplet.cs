@@ -6,14 +6,11 @@
         public int Two { get; set; }
         public int Three { get; set; }
 
-        private int points;
-        public int Points
-        {
-            get { return points; }
-        }
+        public int Points { get; private set; }
+
         public void AddPoint()
         {
-            points += 1;
+            Points += 1;
         }
     }
 }
