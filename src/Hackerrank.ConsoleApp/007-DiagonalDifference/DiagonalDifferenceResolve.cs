@@ -1,30 +1,30 @@
-﻿namespace Hackerrank.ConsoleApp
+﻿using System.Collections.Generic;
+using System.Linq;
+
+namespace Hackerrank.ConsoleApp
 {
     public static class DiagonalDifferenceResolve
     {
         public static int DiagonalDifference(int[][] matrix)
         {
-            var result = (SumPrimaryDiagonal(matrix) - SumSecondaryDiagonal(matrix)).ToString().Replace("-", "");
+            var result = (SumPrimaryDiagonal(matrix) - SumSecondaryDiagonal(matrix))
+                .ToString()
+                .Replace("-", "");
 
             return int.Parse(result);
         }
 
-        private static int SumPrimaryDiagonal(int[][] matrix)
+        private static int SumPrimaryDiagonal(IEnumerable<int[]> matrix)
         {
-            var sum = 0;
-            for (int i = 0; i < matrix.Length; i++)
-                sum += matrix[i][i];
-
-            return sum;
+            return matrix.Select((t, i) => t[i]).Sum();
         }
-        private static int SumSecondaryDiagonal(int[][] matrix)
+        private static int SumSecondaryDiagonal(IReadOnlyCollection<int[]> matrix)
         {
             var sum = 0;
-            var count = matrix.Length - 1;
-            for (int i = 0; i < matrix.Length; i++)
+            var count = matrix.Count - 1;
+            foreach (var m in matrix)
             {
-                sum += matrix[i][count];
-
+                sum += m[count];
                 count--;
             }
 
