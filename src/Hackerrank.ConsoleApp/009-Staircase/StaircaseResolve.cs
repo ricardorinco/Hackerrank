@@ -6,11 +6,11 @@ namespace Hackerrank.ConsoleApp
     {
         public static void Resolve(IConsole console, int staircaseSize)
         {
-            string starLine = string.Empty;
+            var starLine = string.Empty;
 
-            for (int i = staircaseSize; i > 0; i--)
+            for (var i = staircaseSize; i > 0; i--)
             {
-                for (int j = 1; j <= staircaseSize; j++)
+                for (var j = 1; j <= staircaseSize; j++)
                     starLine += j >= i ? "#" : " ";
 
                 console.WriteLine(starLine);
