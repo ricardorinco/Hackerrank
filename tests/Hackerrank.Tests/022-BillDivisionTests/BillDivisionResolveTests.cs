@@ -1,6 +1,6 @@
-﻿using Hackerrank.Common.Console;
-using Hackerrank.ConsoleApp;
+﻿using Hackerrank.ConsoleApp;
 using System.Collections.Generic;
+using Hackerrank.Common.Console;
 using Xunit;
 
 namespace Hackerrank.Tests
