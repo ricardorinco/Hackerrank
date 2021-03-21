@@ -1,5 +1,5 @@
-using Hackerrank.Common.Console.Interfaces;
 using System.Linq;
+using Hackerrank.Common.Console.Interfaces;
 
 namespace Hackerrank.ConsoleApp
 {
@@ -14,7 +14,7 @@ namespace Hackerrank.ConsoleApp
             console.WriteLine(totalOranges.ToString());
         }
 
-        public static int CountFruit(int s, int t, int x, int[] fruits)
+        private static int CountFruit(int s, int t, int x, int[] fruits)
         {
             return fruits
                 .Select(fruit => fruit + x)
