@@ -7,8 +7,8 @@ namespace Hackerrank.ConsoleApp
         public static List<int> CompareTriplets(List<int> a, List<int> b)
         {
             var points = new List<int>();
-            var personOne = new Triplet() { One = a[0], Two = a[1], Three = a[2] };
-            var personTwo = new Triplet() { One = b[0], Two = b[1], Three = b[2] };
+            var personOne = new Triplet { One = a[0], Two = a[1], Three = a[2] };
+            var personTwo = new Triplet { One = b[0], Two = b[1], Three = b[2] };
 
             if (personOne.One > personTwo.One)
                 personOne.AddPoint();
@@ -25,7 +25,7 @@ namespace Hackerrank.ConsoleApp
             else if (personOne.Three != personTwo.Three)
                 personTwo.AddPoint();
 
-            points.AddRange(new List<int>() { personOne.Points, personTwo.Points });
+            points.AddRange(new List<int> { personOne.Points, personTwo.Points });
 
             return points;
         }
