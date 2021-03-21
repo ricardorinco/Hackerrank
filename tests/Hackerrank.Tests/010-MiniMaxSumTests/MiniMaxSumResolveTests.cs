@@ -1,6 +1,6 @@
-﻿using Hackerrank.Common.Console;
-using Hackerrank.ConsoleApp;
+﻿using Hackerrank.ConsoleApp;
 using System.Collections.Generic;
+using Hackerrank.Common.Console;
 using Xunit;
 
 namespace Hackerrank.Tests
@@ -18,15 +18,15 @@ namespace Hackerrank.Tests
 
             var result = console.Contents[0];
 
-            Assert.Equal(resultExpectedResult.ToString(), result);
+            Assert.Equal(resultExpectedResult, result);
         }
 
         public static IEnumerable<object[]> DataNumber
         {
             get
             {
-                yield return new object[] { "16 24", new TestConsole(), new int[] { 1, 3, 5, 7, 9 } };
-                yield return new object[] { "10 14", new AppConsole(), new int[] { 1, 2, 3, 4, 5 } };
+                yield return new object[] { "16 24", new TestConsole(), new[] { 1, 3, 5, 7, 9 } };
+                yield return new object[] { "10 14", new AppConsole(), new[] { 1, 2, 3, 4, 5 } };
             }
         }
     }
