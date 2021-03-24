@@ -5,11 +5,12 @@ namespace Hackerrank.ConsoleApp
 {
     public static class MigratoryBirdsResolve
     {
-        public static int MigratoryBirds(List<int> arr)
+        public static int MigratoryBirds(IEnumerable<int> arr)
         {
-            var result = arr.GroupBy(x => x).OrderByDescending(x => x.Count());
+            var grouped = arr.GroupBy(x => x).OrderByDescending(x => x.Count());
+            var result = grouped.FirstOrDefault();
 
-            return result.FirstOrDefault() == null ? 0 : result.FirstOrDefault().Key;
+            return result?.Key ?? 0;
         }
     }
 }
