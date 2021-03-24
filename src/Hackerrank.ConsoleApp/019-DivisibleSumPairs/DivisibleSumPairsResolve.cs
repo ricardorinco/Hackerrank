@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Hackerrank.ConsoleApp
+﻿namespace Hackerrank.ConsoleApp
 {
     public static class DivisibleSumPairsResolve
     {
@@ -8,11 +6,11 @@ namespace Hackerrank.ConsoleApp
         {
             var pairs = 0;
 
-            for (int i = 0; i < numbers.Length; i++)
+            for (var i = 0; i < numbers.Length; i++)
             {
-                for (int j = i + 1; j < numbers.Length; j++)
+                for (var j = i + 1; j < numbers.Length; j++)
                 {
-                    if (((numbers[i] + numbers[j]) % divisor) == 0)
+                    if ((numbers[i] + numbers[j]) % divisor == 0)
                         pairs++;
                 }
             }
