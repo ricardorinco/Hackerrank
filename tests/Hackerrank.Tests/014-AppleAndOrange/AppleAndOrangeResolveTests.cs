@@ -33,7 +33,7 @@ namespace Hackerrank.Tests
         {
             get
             {
-                yield return new object[] { 1, 1, new TestConsole(), 7, 11, 5, 15, new int[] { -2, 2, 1 }, new int[] { 5, -6 } };
+                yield return new object[] { 1, 1, new TestConsole(), 7, 11, 5, 15, new[] { -2, 2, 1 }, new[] { 5, -6 } };
             }
         }
     }
