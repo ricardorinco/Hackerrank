@@ -1,6 +1,6 @@
 ﻿namespace Hackerrank.ConsoleApp
 {
-    public class BreakingTheRecordsResolve
+    public static class BreakingTheRecordsResolve
     {
         public static int[] BreakingRecords(int[] scores)
         {
@@ -10,7 +10,7 @@
             var mostRecordBreak = 0;
             var leastRecordBreak = 0;
 
-            for (int i = 1; i < scores.Length; i++)
+            for (var i = 1; i < scores.Length; i++)
             {
                 if (scores[i] > mostRecord)
                 {
@@ -18,13 +18,12 @@
                     mostRecordBreak++;
                 }
 
-                if (scores[i] < leastRecord)
-                {
-                    leastRecord = scores[i];
-                    leastRecordBreak++;
-                }
+                if (scores[i] >= leastRecord) continue;
+                leastRecord = scores[i];
+                leastRecordBreak++;
             }
-            return new int[] { mostRecordBreak, leastRecordBreak };
+            
+            return new[] { mostRecordBreak, leastRecordBreak };
         }
     }
 }
