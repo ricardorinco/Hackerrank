@@ -21,7 +21,7 @@ namespace Hackerrank.Tests
         {
             get
             {
-                yield return new object[] { 0, new List<int> { } };
+                yield return new object[] { 0, new List<int>()};
                 yield return new object[] { 4, new List<int> { 1, 4, 4, 4, 5, 3 } };
                 yield return new object[] { 2, new List<int> { 2, 1, 1, 3, 2, 3, 4, 5, 2, 5 } };
                 yield return new object[] { 3, new List<int> { 1, 2, 3, 4, 5, 4, 3, 2, 1, 3, 4 } };
