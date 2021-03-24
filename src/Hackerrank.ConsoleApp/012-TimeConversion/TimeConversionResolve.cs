@@ -8,7 +8,7 @@ namespace Hackerrank.ConsoleApp
         {
             var hoursParse = DateTime.Parse(hours);
 
-            return hoursParse.ToString("HH:mm:ss"); ;
+            return hoursParse.ToString("HH:mm:ss");
         }
     }
 }
