@@ -44,3 +44,4 @@
 | 023 | [Sales by Match](https://www.hackerrank.com/challenges/sock-merchant/problem) |
 | 024 | [Drawing Book](https://www.hackerrank.com/challenges/drawing-book/problem) |
 | 025 | [Find the Point](https://www.hackerrank.com/challenges/find-point/problem) |
+| 026 | [Counting Valleys](https://www.hackerrank.com/challenges/counting-valleys/problem)
