@@ -45,3 +45,4 @@
 | 024 | [Drawing Book](https://www.hackerrank.com/challenges/drawing-book/problem) |
 | 025 | [Find the Point](https://www.hackerrank.com/challenges/find-point/problem) |
 | 026 | [Counting Valleys](https://www.hackerrank.com/challenges/counting-valleys/problem)
+| 027 | [Electronics Shop](https://www.hackerrank.com/challenges/electronics-shop/problem) |
