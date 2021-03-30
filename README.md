@@ -46,3 +46,4 @@
 | 025 | [Find the Point](https://www.hackerrank.com/challenges/find-point/problem) |
 | 026 | [Counting Valleys](https://www.hackerrank.com/challenges/counting-valleys/problem)
 | 027 | [Electronics Shop](https://www.hackerrank.com/challenges/electronics-shop/problem) |
+| 028 | [Cats and a Mouse](https://www.hackerrank.com/challenges/cats-and-a-mouse/problem) |
