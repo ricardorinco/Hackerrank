@@ -6,6 +6,7 @@ namespace Hackerrank.Tests
     public class CatsAndAMouseResolveTests
     {
         [Theory]
+        [InlineData("Cat A", 5, 2, 4)]
         [InlineData("Cat B", 2, 5, 4)]
         [InlineData("Cat B", 1, 2, 3)]
         [InlineData("Mouse C", 1, 3, 2)]
