@@ -49,3 +49,4 @@
 | 028 | [Cats and a Mouse](https://www.hackerrank.com/challenges/cats-and-a-mouse/problem) |
 | 029 | [Forming a Magic Square](https://www.hackerrank.com/challenges/magic-square-forming/problem) |
 | 030 | [The Hurdle Race](https://www.hackerrank.com/challenges/the-hurdle-race/problem) |
+| 031 | [Designer PDF Viewer](https://www.hackerrank.com/challenges/designer-pdf-viewer/problem) |
