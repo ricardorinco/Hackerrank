@@ -51,3 +51,5 @@
 | 030 | [The Hurdle Race](https://www.hackerrank.com/challenges/the-hurdle-race/problem) |
 | 031 | [Designer PDF Viewer](https://www.hackerrank.com/challenges/designer-pdf-viewer/problem) |
 | 032 | [Utopian Tree](https://www.hackerrank.com/challenges/utopian-tree/problem) |
+| 033 | [Angry Professor](https://www.hackerrank.com/challenges/angry-professor/problem) |
+| 034 | [Beautiful Days at the Movies](https://www.hackerrank.com/challenges/beautiful-days-at-the-movies/problem) |
