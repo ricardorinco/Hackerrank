@@ -50,3 +50,4 @@
 | 029 | [Forming a Magic Square](https://www.hackerrank.com/challenges/magic-square-forming/problem) |
 | 030 | [The Hurdle Race](https://www.hackerrank.com/challenges/the-hurdle-race/problem) |
 | 031 | [Designer PDF Viewer](https://www.hackerrank.com/challenges/designer-pdf-viewer/problem) |
+| 032 | [Utopian Tree](https://www.hackerrank.com/challenges/utopian-tree/problem) |
