@@ -23,7 +23,6 @@ namespace Hackerrank.ConsoleApp
                     .FirstOrDefault();
 
                 var letterHeight = heights[wordPosition];
-
                 if (letterHeight > tallestLetter)
                 {
                     tallestLetter = heights[wordPosition];    
