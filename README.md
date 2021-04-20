@@ -54,3 +54,4 @@
 | 033 | [Angry Professor](https://www.hackerrank.com/challenges/angry-professor/problem) |
 | 034 | [Beautiful Days at the Movies](https://www.hackerrank.com/challenges/beautiful-days-at-the-movies/problem) |
 | 035 | [Viral Advertising](https://www.hackerrank.com/challenges/strange-advertising/problem) |
+| 036 | [Save The Prisoner](https://www.hackerrank.com/challenges/save-the-prisoner/problem) |
