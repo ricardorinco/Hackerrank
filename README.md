@@ -55,3 +55,4 @@
 | 034 | [Beautiful Days at the Movies](https://www.hackerrank.com/challenges/beautiful-days-at-the-movies/problem) |
 | 035 | [Viral Advertising](https://www.hackerrank.com/challenges/strange-advertising/problem) |
 | 036 | [Save The Prisoner](https://www.hackerrank.com/challenges/save-the-prisoner/problem) |
+| 037 | [Picking Numbers](https://www.hackerrank.com/challenges/picking-numbers/problem) |
