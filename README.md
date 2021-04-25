@@ -57,3 +57,4 @@
 | 036 | [Save The Prisoner](https://www.hackerrank.com/challenges/save-the-prisoner/problem) |
 | 037 | [Picking Numbers](https://www.hackerrank.com/challenges/picking-numbers/problem) |
 | 038 | [Sequence Equation](https://www.hackerrank.com/challenges/permutation-equation/problem) |
+| 039 | [Find Digits](https://www.hackerrank.com/challenges/find-digits/problem) |
